@@ -8,6 +8,7 @@ namespace Cognizant.Controllers
     [ApiController]
     public class WarehouseController : ControllerBase
     {
+        //retrieve all cars from all Warehouses
         [HttpGet]
         public IEnumerable<Warehouse> Get()
         {
@@ -17,6 +18,7 @@ namespace Cognizant.Controllers
             }
         }
 
+        //Retrieve car list ordered by descending added date
         [HttpGet("DESC")]
         public IEnumerable<Warehouse> DESC()
         {

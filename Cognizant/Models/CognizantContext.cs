@@ -3,6 +3,12 @@ using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
+// CognizantContext.cs and Warehouse.cs files were created automatically 
+// by pasting this code into the Package Manager Console
+//
+// Scaffold-DbContext "Data Source=localhost\sqlexpress;Initial Catalog=Cognizant;Integrated Security=True"
+// Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
 namespace Cognizant.Models
 {
     public partial class CognizantContext : DbContext
